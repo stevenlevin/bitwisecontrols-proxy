@@ -1,0 +1,9 @@
+{
+    "name"        : "bitwisecontrols-proxy",
+    "script"      : "/srv/node/bitwisecontrols-proxy/server.js",
+    "pid_file"    : "pids/bitwisecontrols-proxy.pid",
+    "watch"       : ["/srv/node/bitwisecontrols-proxy/"],
+    "error_file"  : "logs/bitwisecontrols-proxy-error.log",
+    "out_file"    : "logs/bitwisecontrols-proxy-out.log",
+    "merge_logs"  : true
+}
